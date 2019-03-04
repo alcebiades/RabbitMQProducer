@@ -4,6 +4,8 @@
 
 1° Instale o RabbitMQ, pode ser local o docker.
 
-2° Rode o aplicativo e execute a seguinte URL no browser http://localhost:8080/api/producer?name=Alcebiades&age=34
+2° Rode o aplicativo executando o comando: "./gradlew bootRun".
 
-3° O sistema deve retornar a seguinte mensagem "Message sent to the RabbitMQ!"
+3° Em seguida execute no browser a seguinte URL: http://localhost:8080/api/producer?name=SeuNome&age=34
+
+4° O sistema deve retornar a seguinte mensagem "Message sent to the RabbitMQ!"
